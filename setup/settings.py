@@ -1,4 +1,3 @@
-import django_heroku
 from pathlib import Path, os
 from dotenv import load_dotenv
 
@@ -12,7 +11,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-^fv51@wsdn2%x%1h3tdiy)_yd=%qj+cegdzv=f!u(8z-zz_2z4'
+SECRET_KEY = str(os.getenv("SECRET_KEY"))
 #str(os.getenv('SECRET_KEY'))
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -33,14 +32,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'RestConsulta',
-    'tailwind',
-    'theme',
     'django_filters',
     'corsheaders',
     'drf_yasg',      
 ]
-
-TAILWIND_APP_NAME = 'theme'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -51,20 +46,15 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    "django_browser_reload.middleware.BrowserReloadMiddleware",
     "django.middleware.common.CommonMiddleware",
     'django.middleware.locale.LocaleMiddleware',   
     
 ]
 
-ROOT_URLCONF = 'setup.urls'
-
-NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -123,6 +113,7 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_ROOT= os.path.join(BASE_DIR,'media_root')
 MEDIA_URL = '/media/'
@@ -137,8 +128,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
-
-django_heroku.settings(locals())
 
 CORS_ALLOWED_ORIGINS = [  
     'http://localhost:3000'

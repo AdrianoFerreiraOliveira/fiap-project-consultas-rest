@@ -1,6 +1,7 @@
 <h1>Fiap Project API Django Rest Framework</h1> 
 
-Pensamos em um aplicativo que pudesse ajudar a área da saúde onde temos ganhos exponenciais para população, identificamos que um dos grandes problemas que poderíamos atacar hoje seria a falta de informação em consultas médicas, não existe um histórico de pacientes capaz de auxiliar os profissionais da saúde para tomada de decisão e prescrição de diagnósticos consistentes com seus verdadeiros e respectivos problemas.
+Eu e o [Rafael Feitosa](https://github.com/Rafeso) pensamos em um aplicativo que pudesse ajudar a área da saúde onde temos ganhos exponenciais para população, identificamos que um dos grandes problemas que poderíamos atacar hoje seria a falta de informação em consultas médicas, não existe um histórico de pacientes capaz de auxiliar os profissionais da saúde para tomada de decisão e prescrição de diagnósticos consistentes com seus verdadeiros e respectivos problemas.
+Essa aplicação faz parte de uma atividade da faculdade [FIAP](https://www.fiap.com.br/)
 
 <br />
 <p align="center">
@@ -24,7 +25,7 @@ Pensamos em um aplicativo que pudesse ajudar a área da saúde onde temos ganhos
 
 <br />
 
-## Instalação
+## Instalação ⚙
 
 Para executar este projeto, siga os seguintes passos:
 
@@ -52,7 +53,7 @@ Senha: <strong>123456</strong>
 
 <br />
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas 👩‍💻
 
 - [Django Rest Framework](https://www.django-rest-framework.org/)
 - [Grappelli](https://grappelliproject.com/)
@@ -60,3 +61,8 @@ Senha: <strong>123456</strong>
 - [Deploy in Pythonanywhere](https://www.pythonanywhere.com/)
 
 
+## Rotas da aplicação 🚚
+- [Médicos](https://fiapproject.pythonanywhere.com/api-medicos/)
+- [Rota Principal](https://fiapproject.pythonanywhere.com/)
+- [Pacientes](https://fiapproject.pythonanywhere.com/api-pacientes/)
+- [Swagger-Documentação](https://fiapproject.pythonanywhere.com/swagger/)

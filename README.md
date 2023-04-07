@@ -1,8 +1,31 @@
-<h1>API Django Rest Framework</h1> 
+<h1>Fiap Project API Django Rest Framework</h1> 
 
-Este é um projeto de exemplo de uma API desenvolvida em Django Rest Framework. O projeto inclui alguns endpoints para gerenciar consultas e cadastros médicos.
+Pensamos em um aplicativo que pudesse ajudar a área da saúde onde temos ganhos exponenciais para população, identificamos que um dos grandes problemas que poderíamos atacar hoje seria a falta de informação em consultas médicas, não existe um histórico de pacientes capaz de auxiliar os profissionais da saúde para tomada de decisão e prescrição de diagnósticos consistentes com seus verdadeiros e respectivos problemas.
 
-Instalação
+<br />
+<p align="center">
+  <a href="https://fiapproject.pythonanywhere.com/api-medicos/">
+    <img src="https://imgur.com/FT5bA6g" alt="Logo"> 
+  </a>
+  <h3 align="center">ClinicalTech</h3>
+</p>
+
+## Sumário
+
+- [Tabela de Conteúdo](#tabela-de-conte%C3%BAdo)
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Começando](#come%C3%A7ando)
+  - [Instalação](#instala%C3%A7%C3%A3o)
+  - [Tecnologias utilizadas](#tecnolog)
+  - [Snippets](#snippets)
+- [Contribuição](#contribui%C3%A7%C3%A3o)
+- [Licença](#licen%C3%A7a)
+- [Contato](#contato)
+
+<br />
+
+## Instalação
+
 Para executar este projeto, siga os seguintes passos:
 
 1º Clone este repositório em sua máquina local:
@@ -21,5 +44,19 @@ Para executar este projeto, siga os seguintes passos:
 
 <code>python manage.py runserver</code>
 
+PS. Caso queira você pode acessar a aplicação usando esse link, o mesmo usa a biblioteca isAutenticatedh do Django Rest: <br />
+<br />
+Login: <strong>fiap</strong> <br />
+Senha: <strong>123456</strong>
+
+
+<br />
+
+## Tecnologias utilizadas
+
+- [Django Rest Framework](https://www.django-rest-framework.org/)
+- [Grappelli](https://grappelliproject.com/)
+- [Swagger](https://django-rest-swagger.readthedocs.io/en/latest/)
+- [Deploy in Pythonanywhere](https://www.pythonanywhere.com/)
 
 

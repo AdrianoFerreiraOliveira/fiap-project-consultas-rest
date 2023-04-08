@@ -33,6 +33,8 @@ Essa aplicação faz parte de uma atividade da faculdade [FIAP](https://www.fiap
 
 <br />
 
+
+
 ## Instalação ⚙
 
 Para executar este projeto, siga os seguintes passos:
@@ -86,6 +88,29 @@ Senha: <strong>123456</strong>
 
 ## Telas
 
+<div>
+Home
+  <img width="1090" alt="Home" src="https://user-images.githubusercontent.com/105682437/230730177-8014d421-5e5d-4a26-b8eb-d3d335f42be5.PNG">  
+</div>
+
+Pacientes
+<div>
+  <img width="593" alt="Pacientes" src="https://user-images.githubusercontent.com/105682437/230730221-2dbb07bb-e787-458c-9379-52d07e354d14.PNG">
+</div>
+
+Swagger
+<div>
+  <img width="748" alt="Swagger" src="https://user-images.githubusercontent.com/105682437/230730233-36e48cc1-05b3-4018-b579-286f16ece317.PNG">
+</div>  
+
+Admin
+<div>
+  <img width="637" alt="Admin" src="https://user-images.githubusercontent.com/105682437/230730254-2753ef53-14ae-40db-aa77-857baafa19e8.PNG">
+</div>
+
+## Demo 🎮
+![2023-04-08 12-00-16 (1)](https://user-images.githubusercontent.com/105682437/230729906-742f65e7-c11b-4de5-b8b6-32f4e778dfba.gif)
+
 ---
 ## 🦸 Autor
 
@@ -111,5 +136,6 @@ Senha: <strong>123456</strong>
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat-squarew&logo=github&logoColor=white%link=https://github.com/Adriano)](https://github.com/AdrianoFerreiraOliveira)
 </div>
 
-![2023-04-08 12-00-16 (1)](https://user-images.githubusercontent.com/105682437/230729159-448029ec-df5a-4542-b0f9-7220f8ae303b.gif)
+
+
 

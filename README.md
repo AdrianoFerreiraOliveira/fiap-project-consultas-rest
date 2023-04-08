@@ -1,7 +1,6 @@
 <h1 align="center">Fiap Project API Django Rest Framework</h1> 
 
-Eu e o [Rafael Feitosa](https://github.com/Rafeso) pensamos em um aplicativo que pudesse ajudar a área da saúde onde temos ganhos exponenciais para população, identificamos que um dos grandes problemas que poderíamos atacar hoje seria a falta de informação em consultas médicas, não existe um histórico de pacientes capaz de auxiliar os profissionais da saúde para tomada de decisão e prescrição de diagnósticos consistentes com seus verdadeiros e respectivos problemas.
-Essa aplicação faz parte de uma atividade da faculdade [FIAP](https://www.fiap.com.br/)
+
 
 <br />
 
@@ -21,21 +20,24 @@ Essa aplicação faz parte de uma atividade da faculdade [FIAP](https://www.fiap
 
 ## Sumário 📝
 
-- [Tabela de Conteúdo](#tabela-de-conte%C3%BAdo)
+
 - [Sobre o Projeto](#sobre-o-projeto)
-- [Começando](#come%C3%A7ando)
-  - [Instalação](#instala%C3%A7%C3%A3o)
-  - [Tecnologias utilizadas](#tecnolog)
-  - [Snippets](#snippets)
-- [Contribuição](#contribui%C3%A7%C3%A3o)
-- [Licença](#licen%C3%A7a)
-- [Contato](#contato)
+- <a href="#-como-executar-o-projeto">Como executar</a> • 
+- <a href="#acesso">Acesso a Aplicação</a> •
+- <a href="#funcionalidades">Funcionalidades</a> •
+- <a href="#-tecnologias">Tecnologias</a> • 
+- [Rotas](#rotas) •
+- <a href="#telas">Telas</a> •
+- <a href="#-autor">Autor</a> • 
 
 <br />
 
+## Sobre o Projeto
 
+Eu e o [Rafael Feitosa](https://github.com/Rafeso) pensamos em um aplicativo que pudesse ajudar a área da saúde onde temos ganhos exponenciais para população, identificamos que um dos grandes problemas que poderíamos atacar hoje seria a falta de informação em consultas médicas, não existe um histórico de pacientes capaz de auxiliar os profissionais da saúde para tomada de decisão e prescrição de diagnósticos consistentes com seus verdadeiros e respectivos problemas.
+Essa aplicação faz parte de uma atividade da faculdade [FIAP](https://www.fiap.com.br/)
 
-## Instalação ⚙
+## Como executar o projeto ⚙
 
 Para executar este projeto, siga os seguintes passos:
 
@@ -71,7 +73,7 @@ Senha: <strong>123456</strong>
 - [x] Incluir foto do Médico
 <br />
 
-## Tecnologias utilizadas <img align="center" alt="Adriano-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+## Tecnologias <img align="center" alt="Adriano-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 
 - [Django Rest Framework](https://www.django-rest-framework.org/)
 - [Grappelli](https://grappelliproject.com/)
@@ -79,7 +81,7 @@ Senha: <strong>123456</strong>
 - [Deploy in Pythonanywhere](https://www.pythonanywhere.com/)
 <br />
 
-## Rotas da aplicação 🚚
+## Rotas 🚚
 - [Médicos](https://fiapproject.pythonanywhere.com/api-medicos/)
 - [Rota Principal](https://fiapproject.pythonanywhere.com/)
 - [Pacientes](https://fiapproject.pythonanywhere.com/api-pacientes/)

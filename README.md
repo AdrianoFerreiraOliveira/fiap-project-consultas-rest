@@ -45,15 +45,27 @@ Para executar este projeto, siga os seguintes passos:
 
 <code>git clone https://github.com/AdrianoFerreiraOliveira/fiap-project-consultas-rest.git</code>
 
-2º Instale as dependências do projeto:
+2º É altamente recomendado que você utilize um ambiente virtual para rodar o projeto, caso queria saber um pouco mais sobre
+basta clicar [aqui](https://docs.python.org/pt-br/3/library/venv.html)
+
+3º Criando o ambiente virtual
+- 3.1 Após abrir a pasta onde esta seu arquivo acesse o terminal, no nosso caso usamos o  visual studio code e siga os passos abaixo
+- 3.2 <code>pip install virtualvenv</code>
+- 3.3 <code>virtualenv venv</code>
+- 3.4 <code>venv/Scripts/Activate</code> <strong>(Atenção a ésse código pois ele pode variar de acordo com o seu sistema operacional)</strong>.
+
+![2023-04-08 18-02-40](https://user-images.githubusercontent.com/105682437/230742811-bc82dc75-f0f6-49f3-a0b0-a1a877a9dfbb.gif)
+
+
+4º Instale as dependências do projeto:
 
 <code>pip install -r requirements.txt</code>
 
-3º Execute as migrações do banco de dados:
+5º Execute as migrações do banco de dados:
 
 <code>python manage.py migrate</code>
 
-4º Execute as migrações do banco de dados:
+6º Execute as migrações do banco de dados:
 
 <code>python manage.py runserver</code>
 
